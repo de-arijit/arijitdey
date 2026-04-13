@@ -250,26 +250,32 @@ h1.hero-name {
   font-family: var(--name);
   font-weight: 700;
   font-size: clamp(4.8rem, 8vw, 8rem);
-  line-height: 1.02;
+  line-height: 1.15;
   letter-spacing: -0.03em;
   color: var(--t1);
+
   margin-bottom: var(--sp-4);
+  padding-bottom: 0.25em;
+
   position: relative;
   z-index: 1;
+
+  overflow: visible;
 }
 
 h1.hero-name em {
   display: inline-block;
-  padding-bottom: 0.18em;
-  transform: translateY(-3px);
   font-style: italic;
   font-weight: 700;
+
+  transform: none;
+  padding-bottom: 0.12em;
+
   background: var(--g-blue-teal);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
 .hero-statement {
   font-size: 1.12rem; font-weight: 400; /* up from 1.05 */
   color: var(--t2); /* brighter — was t3 */
