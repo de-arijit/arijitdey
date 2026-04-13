@@ -4,7 +4,7 @@
    Neutral Pastel Dark · Persistent highlights · No wasted space
 ═══════════════════════════════════════════════════════════ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Syne:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&family=Cormorant+Garamond:wght@600;700&display=swap');
 
 /* ── DESIGN TOKENS (8pt spatial grid) ───────────────────── */
 :root {
@@ -44,9 +44,9 @@
   --sb-w: 248px;
 
   /* Typography */
-  --name:    'Playfair Display', Georgia, serif;   /* hero name ONLY */
-  --display: 'Syne', system-ui, sans-serif;        /* UI headings    */
-  --body:    'Plus Jakarta Sans', system-ui, sans-serif;
+  --name:    'Cormorant Garamond', Georgia, serif;   /* hero name ONLY */
+  --display: 'Space Grotesk', system-ui, sans-serif;        /* UI headings    */
+  --body:    'Inter', system-ui, sans-serif;
   --mono:    'JetBrains Mono', monospace;
 
   /* Spatial tokens (8pt grid) */
@@ -66,7 +66,7 @@
 
 /* ── RESET ───────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; font-size: 17px; /* base up */ }
+html { scroll-behavior: smooth; font-size: 17px; /* modern readable base */ }
 
 body {
   background: var(--bg);
