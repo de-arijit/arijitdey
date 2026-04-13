@@ -247,15 +247,26 @@ h2.sec-title {
 .hero-eyebrow::before { content:''; width:20px; height:1px; background:var(--p-blue); flex-shrink:0; }
 
 h1.hero-name {
-  font-family: var(--name); font-weight: 900;  /* Playfair Display — professional serif */
-  font-size: clamp(4.5rem, 8vw, 8rem);
-  line-height: .9; letter-spacing: -.02em; color: var(--t1);
-  margin-bottom: var(--sp-4); position: relative; z-index: 1;
+  font-family: var(--name);
+  font-weight: 700;
+  font-size: clamp(4.8rem, 8vw, 8rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  color: var(--t1);
+  margin-bottom: var(--sp-4);
+  position: relative;
+  z-index: 1;
 }
+
 h1.hero-name em {
+  display: inline-block;
+  padding-bottom: 0.18em;
+  transform: translateY(-3px);
   font-style: italic;
+  font-weight: 700;
   background: var(--g-blue-teal);
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
